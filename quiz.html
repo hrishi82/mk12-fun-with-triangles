@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navigation">
-            <ul class="non-bullet nav-btn">
+        <ul class="list-non-bullet nav-pills">
                 <li class="list-item-inline"><a href="./index.html" class="link ">Fun with Triangles</a></li>
                 <li class="list-item-inline"><a href="./quiz.html" class="link link-active">Quiz</a></li>
                 <li class="list-item-inline"><a href="./hypotenuse.html" class="link">Hypotenuse</a></li>
@@ -20,18 +20,28 @@
 
     <div class="container">
 
+            <h1 class="quiz-heading">Quiz on triangles!</h1>
+            <p>For each correct answer you will be awarded 1 point!</p>
+
         <form action="" class="quiz-form">
             <div class="question-container">
-                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°? </p>
+                <p id="ques-one">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°? </p>
                 <label><input type="radio" name = "ques1" value ="45°">45°</label>
                 <label><input type="radio" name = "ques1" value="90°">90°</label>
                 <label><input type="radio" name = "ques1" value="60°">60°</label>  
             </div>
+
             <div class="question-container">
-                <p>If a triangle has an angle of 90 degrees, what is it called? </p>
+                <p id="ques-two">If a triangle has an angle of 90 degrees, what is it called? </p>
                 <label><input type="radio" name = "ques2" value="obtuse">obtuse</label>
                 <label><input type="radio" name = "ques2" value="acute">acute</label>
                 <label><input type="radio" name = "ques2" value="right angled">right angled</label> 
+            </div>
+
+            <div class="question-container">
+                <p id="ques-three">A triangle can have </p>
+                <label><input type="radio" name = "ques3" value="one right angle">one right angle</label>
+                <label><input type="radio" name = "ques3" value="two right angles">two right angles</label>
             </div>
 
         </form>
@@ -39,9 +49,19 @@
 
         <div class="output"></div>
 
-
-
     </div>
+
+
+
+    <footer class='footer'>
+            <ul class='non-bullet-list'>
+                    <li class='icon-list-inline'><a href="https://github.com/hrishi82"><img src="./images/github.png" alt="github icon" class='icon'></a></li>
+                    <li class='icon-list-inline'><a href="https://www.linkedin.com/in/hrishikesh-barman-76b0bb105/"><img src="./images/linkedin.png" alt="linked icon" class='icon'></a></li>
+                    <li class='icon-list-inline'><a href="https://twitter.com/potato_82"><img src="./images/twitter.png" alt="twitter icon" class='icon'></a></li>
+            </ul>
+    </footer>
+
+
         
     
 </body>

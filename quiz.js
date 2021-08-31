@@ -2,7 +2,7 @@ const quizform = document.querySelector(".quiz-form")
 const submitanswerBtn = document.querySelector('#submit-answer-btn') //querySelectorAll in video
 const output = document.querySelector('.output') 
 
-const correctAnswers = ["90°", "right angled"];
+const correctAnswers = ["90°", "right angled" ,"one right angle"];
 
 
 function calculateScore(){
