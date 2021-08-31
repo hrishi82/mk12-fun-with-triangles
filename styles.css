@@ -204,6 +204,7 @@ body{
     color: var(--txt-color);
     font-weight: bold;
     font-size: 1.8rem;
+    margin-bottom: 50px;
 }
 
 
