@@ -8,5 +8,12 @@ function checkArea(){
     output.innerText = "The area of the triangle is " + area+'cm²';
 }
 
+function checkVal(){
+    if(Number(sides[0].value) <= 0 || Number(sides[1].value) <= 0 ){
+        output.innerText = "Please enter correct values";
+      }else{
+        checkArea()
+      }
+}
 
-checkARBtn.addEventListener('click', checkArea )
+checkARBtn.addEventListener('click', checkVal )

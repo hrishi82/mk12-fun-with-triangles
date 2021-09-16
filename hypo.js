@@ -14,7 +14,13 @@ function checkhypotenuse(){
     output.innerText = "Length of hypotenuse: " + Math.sqrt(sumofsq);
 }
 
+function checkVal(){
+    if(Number(sides[0].value) <= 0 || Number(sides[1].value) <= 0 ){
+        output.innerText = "Please enter correct values";
+      }else{
+        checkhypotenuse()
+      }
+}
 
 
-
-checkHypoBtn.addEventListener('click', checkhypotenuse )
+checkHypoBtn.addEventListener('click', checkVal)
