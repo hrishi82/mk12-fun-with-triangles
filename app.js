@@ -17,4 +17,15 @@ function isTriangle(){
 }
 
 
-btn_checkTr.addEventListener("click", isTriangle);
+function checkVal(){
+    if(Number(sideA.value) <= 0 || Number(sideB.value) <= 0 || Number(sideC.value) <= 0){
+        output.innerText = "Please enter correct values";
+      }else{
+        isTriangle()
+      }
+}
+
+
+
+
+btn_checkTr.addEventListener("click", checkVal);
